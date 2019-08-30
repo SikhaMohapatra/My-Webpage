@@ -1,0 +1,392 @@
+/*************TAG SELECTOR***********/
+body {
+  text-align: center;
+  margin: 0;
+  overflow-x: hiddeen;
+}
+
+.top-container h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento';
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Merriweather'serif;
+  weight: 700;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather';
+  weight: 400;
+}
+
+body hr {
+  border: dotted #E4F6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/* Container Fluid */
+#title .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #EAF6F6;
+}
+
+/* navbar */
+.navbar {
+  background-color: #60a9a6;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-link {
+  font-family: 'Merriweather';
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather';
+  font-size: 2.5rem;
+}
+
+/**********Top Container**********/
+.top-container {
+  background-color: #e6f8f9;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain1 {
+  position: static;
+}
+
+/******************Middle Container****************/
+.middle-container {
+  background-color: white;
+  padding-top: 50px;
+}
+
+.my-img {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+
+.lifemantra-img {
+  height: 250px;
+  width: 250px;
+  ;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.writing-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.aboutme {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.life-mantra {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.p1 {
+  text-align: center;
+}
+
+/******************Bottom Container****************/
+.bottom-container {
+  position: relative;
+  padding-top: 50px;
+  margin-top: 100px;
+  background-color: #60a9a6;
+  padding-bottom: 50px;
+}
+
+.footer-link1 {
+  position: absolute;
+  left: 36%;
+}
+
+.footer-link2 {
+  position: absolute;
+  left: 46%;
+}
+
+.footer-link3 {
+  position: absolute;
+  left: 56%;
+}
+
+.contactmsg {
+  width: 50%;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+
+body a {
+  color: #11999e;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.btn {
+  position: relative;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather'serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  left: 43%;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*********************************** Media Quary *********************************/
+@media(max-width:767px) {
+  body {
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.5rem;
+  }
+
+  h3 {
+    text-align: center;
+    width: 80%;
+    font-size: 2rem;
+  }
+
+  ul {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+
+  .top-cloud {
+    right: 20px;
+    width: 30%;
+  }
+
+  .bottom-cloud {
+    width: 30%;
+    left: 20px;
+    bottom: 120px;
+  }
+
+  .mountain1 {
+    position: static;
+    width: 80%;
+    margin-left: 0px;
+  }
+
+  .top-container {
+    padding-top: 15px;
+  }
+
+  /* Middle */
+  .my-img {
+    position: static;
+    width: 70%;
+  }
+
+  .lifemantra-img {
+    position: relative;
+    right: 15px;
+    ;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .life-mantra {
+    text-align: center;
+    width: 80%;
+  }
+
+  .p1 {
+    font-size: 1.5rem;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #My-Skill {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .skill-row {
+    width: 90%;
+  }
+
+  /* Headind */
+  .skills {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .programmer {
+    font-size: 1.3rem;
+  }
+
+  .coding-img {
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .coading {
+    font-size: 1.3rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  /* Writting */
+  .writing-img {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+
+  .writing-sayari {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .writing {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.3rem;
+  }
+
+  /* Contact div */
+  .contactmsg {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  .contact-me {
+    margin-left: 50px;
+  }
+
+  /* Footer */
+  .btn {
+    position: relative;
+    width: 50%;
+    left: 80px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Footer */
+  .footer-link1 {
+    left: 10%;
+  }
+
+  .footer-link2 {
+    left: 35%;
+  }
+
+  .footer-link3 {
+    left: 60%;
+  }
+}
